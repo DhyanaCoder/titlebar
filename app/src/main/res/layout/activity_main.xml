@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.example.thinkpad.customview.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundColor="@color/colorPrimary"
+        app:title_text="CustomViewLearn"
+        app:textSize="25"
+        >
+
+    </com.example.thinkpad.customview.TitleBar>
+    <com.example.thinkpad.customview.CustomViewOne
+        android:id="@+id/customView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"/>
+     <Button
+         android:id="@+id/slideButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="slide"/>
+    <com.example.thinkpad.customview.InvalidTextView
+        android:id="@+id/text"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimaryDark"/>
+</LinearLayout>
