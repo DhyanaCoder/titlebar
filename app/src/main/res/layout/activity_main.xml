@@ -4,16 +4,21 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
-    <com.example.thinkpad.customview.TitleBar
+    <com.example.thinkpad.titlebar.TitleBar
         android:id="@+id/titlebar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:backgroundColor="@color/colorPrimary"
         app:title_text="CustomViewLearn"
         app:textSize="25"
-        >
+        app:leftDrawble="@drawable/back"
+        app:rightDrawble="@drawable/more"
+        app:title_bg="@color/colorPrimary"
+        app:leftSize="25"
+        app:rightSize="25"
+        />
 
-    </com.example.thinkpad.customview.TitleBar>
+
     <com.example.thinkpad.customview.CustomViewOne
         android:id="@+id/customView"
         android:layout_width="50dp"

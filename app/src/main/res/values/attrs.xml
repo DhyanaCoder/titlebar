@@ -4,8 +4,8 @@
         <attr name="backgroundColor" format="color"/>
         <attr name="title_bg" format="color"/>
         <attr name="title_text" format="string"/>
-        <attr name="leftDrawble" format="integer"/>
-        <attr name="rightDrawble" format="integer"/>
+        <attr name="leftDrawble" format="reference"/>
+        <attr name="rightDrawble" format="reference"/>
         <attr name="textSize" format="integer"/>
         <attr name="leftSize" format="integer"/>
         <attr name="rightSize" format="integer"/>
